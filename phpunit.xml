@@ -1,0 +1,7 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="haistar-jos-api-client">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
