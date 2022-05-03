@@ -39,13 +39,18 @@ class JosApiRequest
      * @param string $key
      * @param mixed $value
      *
-     * @return mixed
+     * @return void
      */
     function addRequestParam($key, $value)
     {
         $this->requestParams[$key] = $value;
     }
-
+    
+    /**
+     * Method getRequestParams
+     *
+     * @return mixed|string
+     */
     function getRequestParams()
     {
         return json_encode($this->requestParams, JSON_FORCE_OBJECT);
