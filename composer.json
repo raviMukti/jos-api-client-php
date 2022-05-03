@@ -1,0 +1,18 @@
+{
+    "name": "haistar/jos-api-client",
+    "description": "Unofficial API Client for JDID Open Platform V2",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Haistar\\JosApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "raviMukti",
+            "email": "shinjiravi@gmail.com"
+        }
+    ],
+    "require": {}
+}
